@@ -1,49 +1,27 @@
 body {
   font-size: 12px;
   line-height: 1.5em;
-  font-family: Verdana, Helvetica, Arial, sans-serif;
-  color: #766;
+  font-family: Andale Mono, monospace;
+  color: #1B2457;
 }
-#menu {
-  text-align: right;
-  width: auto;
-  padding-bottom: 4px;
-  border-bottom: 1px solid #ccc;
+
+span.highlight {
+  background-color : yellow;
 }
-#menu ul {
-  margin: 0;
-  padding: 0 0;
-  }
 
-#menu li {
-  margin: 0;
-  padding: 0;
-  display: inline;
-  list-style-type: none;
+a {
+  color: #1B2457;
 }
-#menu a:link, #Menu a:visited {
-  font-size: 10px;
-  line-height: 1.4em;
-  margin: 0 10px 4px 10px;
-  text-decoration: none;
-  color: #999;
-  }
 
-#menu a.active:link, #Menu a.active:visited, #Menu a:hover {
-  border-bottom: 4px solid #555;
-  padding-bottom: 2px;
-  background: #fff;
-  color: #555;
-  /* IE5 doesn't allow us to put a border
-     under the link, so use an underline.. */
-  text-decoration: underline;
-  voice-family: "\"}\"";
-  voice-family:inherit;
-  /* ...and don't underline the link in
-     other browsers */
-  text-decoration: none;
-  }
+#test {
+    color: black;
+}
 
-#menu a:hover {
-  color: #555;
+.image {
+    float: left;
+    width: 30%;
+}
+
+.img-text {
+    margin-left: 305px;
 }
