@@ -11,6 +11,31 @@ span.highlight {
 
 a {
   color: #1B2457;
+
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../images/header.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+nav {
+  background-color: #1B2457;
+  height: 20px;
+}
+
+header {
+  height: 100px;
 }
 
 #test {
@@ -20,6 +45,10 @@ a {
 .image {
     float: left;
     width: 30%;
+}
+
+.see-through {
+  background: transparent;
 }
 
 .img-text {
