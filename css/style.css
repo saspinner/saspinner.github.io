@@ -2,7 +2,8 @@ body {
   font-size: 12px;
   line-height: 1.5em;
   font-family: Andale Mono, monospace;
-  color: #1B2457;
+  color: #ffffff;
+  opacity: 87%;
 }
 
 span.highlight {
@@ -10,11 +11,40 @@ span.highlight {
 }
 
 a {
-  color: #1B2457;
+  opacity:  85%;
+  color:  #D6EEEA;
 
 }
 
-.parallax {
+p {
+  opacity:  87%;
+}
+
+footer {
+  font-size: 8px;
+  text-align: right;
+}
+
+header.intro-pic {
+  background-image: url("../images/header.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-position: center;
+  background-size: cover;
+
+}
+
+h1.past-picture {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.intro_parallax {
   /* The image used */
   background-image: url("../images/header.jpg");
 
@@ -28,14 +58,34 @@ a {
   background-size: cover;
 }
 
-
-nav {
-  background-color: #1B2457;
-  height: 20px;
+.parallax_text {
+  text-align: center;
+  font-size: 36px;
+  color: #ffffff;
+  margin: auto;
+  position: relative;
 }
 
-header {
-  height: 100px;
+h1.intro-banner {
+   position: relative;
+   top: -475px;
+   left:  60px;
+ }
+
+nav {
+  background-color: transparent;
+  height: 30px;
+  margin-bottom: -30px;
+}
+
+h1 {
+  opacity: 90%;
+}
+
+
+li.intro {
+  color : #ffffff;
+  text-align: right;
 }
 
 #test {
@@ -52,6 +102,7 @@ header {
 }
 
 .img-text {
-    margin-left: 305px;
+    margin-left: 255px;
     margin-right: 30px;
+    opacity: 60%;
 }
